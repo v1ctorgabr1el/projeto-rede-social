@@ -4,18 +4,17 @@
 }
 
 html, body{
-    height: 100vh;
-    width: 100vw;
     background-color: black;
 }
 
 main{
     position: relative;
     height: 100vh;
+    width: 100vw;
     background-image: url(../imagens/fundo-madeira.jpg);
     background-position: top center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -23,9 +22,18 @@ main{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    background-image: url(../imagens/frame-iphone.png);
-    background-repeat: no-repeat;
+    transform: translate(-50%,-50%);
+    background-color: blue;
+    background: url(../imagens/frame-iphone.png) no-repeat;
     width: 311px;
     height: 627px;
+}
+
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 472px;
+    
 }
